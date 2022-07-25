@@ -20,7 +20,7 @@ var displayWeather = function (data) {
   console.log(name, icon, description, temp, humidity, speed);
   document.querySelector(".city").innerText = "Weather in: " + name;
   document.querySelector(".description").innerText = description;
-  document.querySelector(".temp").innerText = temp + "°";
+  document.querySelector(".temp").innerText = temp + "°F";
   document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
   document.querySelector(".wind").innerText = "Wind: " + speed + " mph";
 };
